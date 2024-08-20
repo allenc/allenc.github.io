@@ -1,0 +1,57 @@
+# Node.js related files
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+.pnpm-debug.log*
+
+# Next.js build output
+.next/
+out/
+
+# If you're using Next.js API routes
+.next/server/
+
+# Logs
+logs/
+*.log
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# IDEs and editors
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# Generated coverage files
+coverage/
+
+# TypeScript cache (if applicable)
+*.tsbuildinfo
+
+# Mac OS Finder
+.AppleDouble
+
+# Build files
+dist/
+.cache/
+
+# GitHub Actions
+.github/
+
+# Misc
+!.prettierignore
+!.eslintrc.js
