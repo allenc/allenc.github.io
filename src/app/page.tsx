@@ -28,7 +28,7 @@ export default function Home() {
             area and currently work on motion planning for all kinds of robots.
             Previously, I studied mechanical engineering and robotics at
             Carnegie Mellon University and was fortunate to be advised by Max
-            Likhachev. I am probably lying on the beach, bed, or my rogue
+            Likhachev. I am probably lying on the beach, my bed, or a rogue
             bench.
           </p>
           <div className="mt-4">
