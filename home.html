@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Allen Cheng</title>
+    <style>
+        body {
+            font-family: monospace;
+            max-width: 800px;
+            margin: 5rem auto 0;
+            padding: 0 1rem;
+            color: #333;
+            line-height: 1.5;
+            display: flex;
+            justify-content: center;
+        }
+        .profile {
+            text-align: center;
+        }
+        img {
+            max-width: 12rem;
+            border-radius: 0.5rem;
+            display: block;
+            margin: 0 auto 1.5rem;
+        }
+        .social {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-items: center;
+            gap: 1rem;
+        }
+        .name {
+            font-size: 0.8rem;
+            font-weight: 100;
+            letter-spacing: 0.05em;
+            color: #000;
+            margin: 0;
+        }
+        .social a, .name {
+            display: inline-block;
+            text-decoration: none;
+            transition: opacity 0.2s;
+        }
+        .social a {
+            color: inherit;
+            opacity: 0.7;
+        }
+        .social a:hover {
+            opacity: 1;
+            text-decoration: underline;
+        }
+        @media (max-width: 768px) {
+            .social {
+                flex-direction: column;
+                gap: 0.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="profile">
+        <img src="avatar.png" alt="Allen Cheng">
+        <div class="social">
+            <span class="name">allen cheng</span>
+            <a href="https://github.com/allenc">gh</a>
+            <a href="https://www.linkedin.com/in/chengallen/">li</a>
+            <a href="https://x.com/yfq_44a">x</a>
+            <a href="https://www.instagram.com/training_data">ig</a>
+        </div>
+    </div>
+</body>
+</html>
